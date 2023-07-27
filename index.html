@@ -209,40 +209,47 @@
           </section>
     </header>
     <main>
-      <div class="flex gap-2">
-      <!-- Deal -->
-         <div class="block">
-        <h3 class="text-5xl">Deal of the day</h3>
-        <p class="text-base">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-        </div>
-        <!-- countdown -->
-        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-          <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:15;"></span>
-            </span>
-            days
-          </div> 
-          <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:10;"></span>
-            </span>
-            hours
-          </div> 
-          <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:24;"></span>
-            </span>
-            Minutes
-          </div> 
-          <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:25;"></span>
-            </span>
-            Seconds
+      <!-- Deal and time -->
+      <section>
+        <div class="grid col-span-1 text-center lg:text-left lg:flex lg:justify-between lg:py-32 py-10" >
+          <div>
+            <div>
+              <h2 class="text-2xl md:text-3xl lg:text-5xl font-extrabold"> Deal of the day </h2>
+            </div>
+            <div class="pt-7">
+              <p> Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br /> Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+          </div>
+          <div class="flex justify-center lg:pt-0 pt-8">
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col">
+                <span class="flex justify-between items-center font-mono text-5xl">
+                  <span class="pl-4">23</span>
+                </span>
+                days
+              </div>
+              <div class="flex flex-col">
+                <span class="flex justify-between items-center font-mono text-5xl">
+                  <span class="pl-4">12</span>
+                </span>
+                hours
+              </div>
+              <div class="flex flex-col">
+                <span class="flex justify-between items-center font-mono text-5xl">
+                  <span class="pl-4">44</span>
+                </span>
+                Minutes
+              </div>
+              <div class="flex flex-col">
+                <span class="flex justify-between items-center font-mono text-5xl">
+                  <span>11</span>
+                </span>
+                Seconds
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+  
       <!-- card  -->
       <div class="flex gap-6 ">
         <!-- card 1 -->
